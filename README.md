@@ -109,5 +109,7 @@ git push origin master
 使用git fetch更新，相当于是从远程获取最新版本到本地，不会自动merge
 
 git fetch origin master 
+
 git log -p master..origin/master 
+
 git merge origin/master  
